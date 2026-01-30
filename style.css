@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    background: white;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e68900;
+}/* General body style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #eef2f7;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* About section */
+.about {
+    background-color: #fff4e6;
+    border-left: 6px solid #ff9800;
+}
+
+/* Personal info section */
+.info {
+    background-color: #e6f4ff;
+    border-left: 6px solid #2196f3;
+}
+
+/* Skills section */
+.skills {
+    background-color: #e8f5e9;
+    border-left: 6px solid #4caf50;
+}
+
+/* Hobby section */
+.hobby {
+    background-color: #f3e5f5;
+    border-left: 6px solid #9c27b0;
+}
+
+/* Common section style */
+section {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    margin-top: 0;
+    color: #222;
+}
+
+/* List style */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 6px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Button */
+button {
+    padding: 8px 18px;
+    border: none;
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e64a19;
+}/* ===== Animations ===== */
+
+/* Fade and slide from top */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fade and slide from bottom */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Header animation */
+header {
+    animation: slideDown 1s ease-in-out;
+}
+
+/* Section animation */
+section {
+    animation: slideUp 1s ease forwards;
+}
+
+/* Button pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button {
+    animation: pulse 2s infinite;
+}
+
+/* Hover animation on sections */
+section:hover {
+    transform: scale(1.02);
+    transition: 0.3s ease;
+}section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease;
+}/* Social section */
+.social {
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Instagram button */
+.insta-btn {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    color: white;
+    margin: 10px;
+}
+
+/* TikTok button */
+.tiktok-btn {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 10px;
+}
+
+/* Social buttons common style */
+.social button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.social button:hover {
+    transform: scale(1.1);
+}
